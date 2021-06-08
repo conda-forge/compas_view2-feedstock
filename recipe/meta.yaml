@@ -10,7 +10,7 @@ source:
   sha256: c4a7012810141d5682e612947df82dfe348bc3e5cb0fc99cd1a9b87bf9b64cd5
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<36 or py>38]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -24,7 +24,7 @@ requirements:
     - compas >=1.0
     - python.app    # [osx]
     - freeglut      # [win]
-    - freetype-py   # [linux]
+    - freetype-py
     - pyside2
     - pyopengl
     # - pyopengl-accelerate
