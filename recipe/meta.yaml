@@ -1,5 +1,5 @@
 {% set name = "compas_view2" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d3135e94eedab2249c66be3f36afbb6f11a11e8cc22151c8149867640c981dba
+  sha256: 9e9713cf4362aa2db752757fc1fe5c8b509ed45c5a99a4f85eab082feba66122
 
 build:
-  number: 1
+  number: 0
   skip: true  # [py<36]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
