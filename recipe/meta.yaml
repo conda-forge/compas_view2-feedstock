@@ -1,5 +1,5 @@
 {% set name = "compas_view2" %}
-{% set version = "0.4.4" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f4d171206015810308f162521d0121ac818bdeb2f9b9fab3ef713275c91a88ab
+  sha256: 0204a9481331991e8affa9bd2e5f05864a3d90d1a94cef59516df576bf024df9
 
 build:
   number: 0
@@ -27,6 +27,8 @@ requirements:
     - freetype-py
     - pyside2
     - pyopengl
+    - textdistance
+    - qtpy
     # - pyopengl-accelerate
 
 test:
