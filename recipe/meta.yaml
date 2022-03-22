@@ -27,6 +27,8 @@ requirements:
     - freetype-py
     - pyside2
     - pyopengl
+    - textdistance
+    - qtpy
     # - pyopengl-accelerate
 
 test:
