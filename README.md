@@ -1,11 +1,11 @@
-About compas_view2
-==================
+About compas_view2-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/compas_view2-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/compas-dev/compas_view2
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/compas_view2-feedstock/blob/main/LICENSE.txt)
 
 Summary: Second generation viewers for the COMPAS framework
 
