@@ -271,6 +271,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@brgcode](https://github.com/brgcode/)
 * [@licini](https://github.com/licini/)
+* [@tomvanmele](https://github.com/tomvanmele/)
 
