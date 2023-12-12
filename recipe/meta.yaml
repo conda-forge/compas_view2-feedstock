@@ -24,7 +24,6 @@ requirements:
   run:
     - python
     - compas >=1.0
-    - python.app    # [osx]
     - freeglut      # [win]
     - freetype-py
     - pyside2
