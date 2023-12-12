@@ -23,7 +23,6 @@ requirements:
     - python
   run:
     - python
-    - cython
     - compas >=1.0
     - python.app    # [osx]
     - freeglut      # [win]
